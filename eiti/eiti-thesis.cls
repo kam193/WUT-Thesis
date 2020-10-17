@@ -476,16 +476,16 @@
 %--------------------------------
 \newcommand{\acronymlist}{
     \ifnum \pdf@strcmp{\@lang}{polish} = 0
-        \section*{Wykaz symboli i skrótów}
+        \section*{Wykaz skrótów}
     \fi
     \ifnum \pdf@strcmp{\@lang}{english} = 0
         \section*{List of Symbols and Abbreviations}
     \fi
 }
-\newcommand{\acronym}[2]{
-    \par\noindent\hspace{0.4em}
-    {\textbf{#1} -- #2}
-}
+% \newcommand{\acronym}[2]{
+%     \par\noindent\hspace{0.4em}
+%     {\textbf{#1} -- #2}
+% }
 
 %--------------------------------
 % Spis załączników - makra
